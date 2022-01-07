@@ -12,9 +12,14 @@
 }
 .h1{
     font-family:var(--font-montserrat);
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     color: white;
+}
+h2{
+    font-family: var(--font-montserrat);
+    line-height: 1.5;
+    font-size: 3rem;
 }
 .container-fluid{
     padding: 3% 15%;
@@ -39,3 +44,98 @@
 .nav-link{
     font-size: 1.2rem;
 }
+/* Bownload Buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/*Titttle image*/
+.title-image{
+    max-width: 17rem;
+    min-width: 17rem;
+    transform: rotate(25deg);
+    position: absolute;
+}
+/*Features*/
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 99;
+}
+.feature-box{
+    padding: 5%;
+    background-color: #fff;
+}
+.features-icon{
+    color: #ef8172;
+    font-size: 4rem;
+}
+.features-icon:hover{
+    color: #ff4c68;
+}
+.features-h3{
+    font-family: var(--font-montserrat);
+    font-weight:100;
+    font-size: 1.5rem;
+}
+.features-p{
+    color: #8f8f8f;
+}
+/* testimonial section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press section */
+
+#press{
+    background-color: #ef8172;
+    text-align: center ;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.btn-carousel{
+    padding-right: 15%;
+}
+
+/* pricing setion */
+
+#pricing{
+    text-align: center;
+    padding-top: 3%;
+} 
+.container-prices{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+.container-prices .card{
+    width: 18rem;
+    flex-grow: 1;
+    height: 25rem;
+    text-align: center;
+    padding: 0;
+} 
+.container-fluid .card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Phone On de botton and the testiomial section in */
